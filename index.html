@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Chat app with Socker io</title>
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-messages"></div>
+    <div class="create-message-row">
+      <input type="text"  id="user-name" placeholder="Guest">
+      <input type="text" id="user-message" placeholder="Type here to chat">
+      <input type="button" id="submit" value="Send">
+    </div>
+  </div>
+  <script src="js/socket-io.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
